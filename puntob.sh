@@ -1,11 +1,11 @@
 fdisk /dev/sdc
+mkfs.ext4 /dev/sdc1
+mkfs.ext4 /dev/sdc2
+mkfs.ext4 /dev/sdc3
 mkdir /mnt/sdc1
 mkdir /mnt/sdc2
 mkdir /mnt/sdc3
 mkdir /mnt/sdc4
-mkfs.ext4 /dev/sdc1
-mkfs.ext4 /dev/sdc2
-mkfs.ext4 /dev/sdc3
 mount /dev/sdc1 /mnt/sdc1
 mount /dev/sdc2 /mnt/sdc2
 mount /dev/sdc3 /mnt/sdc3
